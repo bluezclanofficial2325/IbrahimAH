@@ -1,0 +1,248 @@
+# Main building blocks so far for CS:
+
+- Convert a Binary number to a decimal
+- convert a decimal into binary
+
+- assign the correct values to a given logic
+
+**By November 8th, 2023 i was supposed to know how to use a VM, Ubuntu, PowerShell:**
+
+- **Create and verify the correct folder structure in Windows for installing the VM.**
+    - Make sure you have enough space for installing the VM
+    - install your liking of a VM
+- Correctly (and cleanly) install Ubuntu without any of the system updates.
+    - use this link to make a clean install of the base ubuntu:[**https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)**
+    - use your desired hard drive space that you’ve picked and put it into there.
+    - 
+- Download, and install Powershell 7.x.x inside Ubuntu.
+    - go to the application store and search up powershell then, install powershell.
+- Use the "cd", "dir", "ls" and "Tab(key)" to quickly navigate folders and find files.
+- Make new Folders and Files
+- Move existing Folders and Files
+- Edit and names of Folders and Files
+- Delete Folders and Files
+- Use "nano" to edit the contents of files
+- Shutdown/power off Ubuntu from inside the VM
+
+**Networking Basics In Cybersecturity:**
+
+- Ifconfig
+    - Short for interface config
+    - its a system administration utility in Unix-like operating systems for interface configuration
+- Whats Unix?
+    - Unix is an operating system created in the 1960s. It lets many people use the computer at the same time and run several tasks at once. It’s simple, flexible, and works on different computers. Unix also has a file system that organizes files and good security features.
+- Ip
+    - IP short for Internet Protocol is a numerical label such as 192.0.2.1 that is connected to a computer network that uses the internet protocol for communication.
+- Traceroute
+    - A traceroute provides a map of how data on the internet travels from its source to its destination.
+- Tracepath
+    - A "trace path" is a networking tool used to identify the route data packets take from their source to destination across a network, revealing the hops and transit delays along the path, helpful for diagnosing network issues.
+- Ping
+    - "Ping" is a network diagnostic tool that measures the round-trip time for messages sent between a computer and a network host, used to check the availability and response time of the host.
+- Netstat
+    - "Netstat" is a network utility tool that displays network connections, routing tables, and a number of network interface statistics, useful for diagnosing network issues.
+- SS
+    - "ss" is a command-line utility that shows network connections, listening ports, and socket statistics, used for monitoring and diagnosing network issues.
+- Dig
+    - "dig" (Domain Information Groper) is a command-line tool used in network administration to query Domain Name System (DNS) servers. It provides detailed information about various DNS records and is useful for diagnosing DNS-related issues.
+- NS Lookup
+    - Nslookup is a command-line tool used for querying the Domain Name System (DNS) to find out IP addresses associated with a domain name or vice versa. It's commonly used in network troubleshooting and for DNS-related queries.
+- Route
+    - A route in networking is a path that network traffic takes between devices or across networks. It's used to direct data packets from a source to a destination through intermediate network nodes and links.
+- Host
+    - In computing, a host refers to a computer or other device connected to a network that provides data, services, or resources to other devices or clients on the network.
+- ARP
+    - ARP, or Address Resolution Protocol, is a network protocol used to find the hardware (MAC) address of a device associated with a specific IP address on a local network segment.
+- IWconfig
+    - IWconfig is a command-line tool in Unix-like operating systems used to configure wireless network interfaces. It provides options to set or display wireless settings such as SSID, frequency, and encryption keys.
+- Hostname
+    - A hostname is a label assigned to a device on a network. It identifies the device in various forms of electronic communication such as the internet or within a local network. Hostnames are used to easily recognize and remember devices in a network environment.
+- Curl Or Wget
+    - curl and wget are command-line tools for data transfer. curl supports multiple protocols and scripting, while wget specializes in downloading files, often from web servers.
+- MTR
+    - MTR (My Traceroute) is a network diagnostic tool that combines the functionalities of the 'traceroute' and 'ping' programs. It provides continuous network routing and performance analysis data.
+- WHOIS
+    - whois is a query and response protocol used for querying databases that store registered users or assignees of an Internet resource, such as a domain name or an IP address block, to obtain information about the registrant.
+- IfPlugStatus
+    - ifplugstatus is a tool that checks the status of Ethernet network interfaces, showing whether a cable is plugged in and if the interface is active.
+- Iftop
+    - iftop is a command-line tool that displays bandwidth usage on a network interface in real-time. It shows a list of network connections and their data transfer rates.
+- Tcpdump
+    - Tcpdump is a powerful command-line packet analyzer used for network troubleshooting and analysis. It captures and displays the content of packets transmitted or received over a network to which the computer is connected.
+- IP Address (IPV4)
+    - An IP address is a unique numerical label assigned to each device on a network to identify and locate it.
+- Subnet Masks
+    - A subnet mask is a number that divides an IP address into network and host parts, organizing networks within a larger network.
+- Gateway
+    - A gateway is the input or output of the connection to the network
+- DNS (Domain Name System)
+    - DNS (Domain Name System) converts domain names into IP addresses, functioning as the internet's phonebook.
+- What is a Network Switch?
+    - A network switch is a hardware device that connects devices within a local network, directing data to its intended destination within that network. It's essential for managing network traffic efficiently.
+- What is a Network router?
+    - A network router is a device that forwards data packets between computer networks, directing internet traffic. It connects different networks together, like your home network to the internet.
+- What are "access points?”
+    - Access points are devices that create a wireless local area network, usually in an office or large building. They connect to a wired router, switch, or hub via an Ethernet cable, and project a Wi-Fi signal to a designated area.
+- MAC Address
+    - A MAC address is a unique identifier for network devices, used for communication on physical networks like Ethernet and Wi-Fi.
+- What are “Ports” in network addressing
+    - Ports in networking are virtual endpoints identified by numbers, used to route data to specific services or applications on a device.
+- what are these types of networks? (WAN, LAN, PAN, MAN and VPN)
+    - WAN (Wide Area Network): A network covering large geographical areas, connecting smaller networks like LANs, often spanning cities or countries.
+    - LAN (Local Area Network): A network covering a small geographic area, like a home, office, or building, used for connecting computers and devices within this limited area.
+    - PAN (Personal Area Network): A network for personal devices typically within a range of 10 meters, like Bluetooth or wireless keyboards and mice.
+    - MAN (Metropolitan Area Network): A network that covers a larger geographic area than a LAN but smaller than a WAN, typically spanning a city or a campus.
+    - VPN (Virtual Private Network): A service that creates a secure, encrypted connection over a less secure network, like the internet, providing privacy and security.
+
+### Spot check study stuff:
+
+- pwd — Prints the directory you’re working in.
+- ls — Lists the items (files/folders) in your current location.
+    - Options:
+        - File System Navigation
+            - ls -l — Shows a detailed list of files.
+            - ls -a — Reveals hidden files.
+- cd — Allows you to change directories.
+    - Examples:
+        - cd Documents — Navigates to an exact directory path.
+        - cd Documents — Moves into a folder relative to your current one.
+        - cd .. — Takes you one level up in the directory structure.
+        - cd ~ — Brings you directly to your home folder.
+    - Quick Tip:
+        - You can check command manuals with man [command].
+        - For more info on commands like ls, search terms like "Linux ls command guide," or ask me if you’re uncertain.
+
+---
+
+1. Basic File and Folder Operations (CRUD)
+
+Create:
+
+- touch newfile.txt — Makes a new, empty file.
+- mkdir newfolder — Creates a new directory (folder).
+
+Read:
+
+- cat newfile.txt — Displays the file’s contents in the terminal.
+- less newfile.txt — Opens the file and lets you scroll through the contents.
+
+Update:
+
+- nano newfile.txt — Opens the file for editing in the Nano text editor.
+- echo "Some text" >> newfile.txt — Adds new text to the end of the file.
+
+Delete:
+
+- rm newfile.txt — Deletes the file.
+- rmdir newfolder — Deletes an empty directory.
+- rm -r newfolder — Recursively deletes the directory and its contents.
+    - extra stuff help:
+        - Be cautious when using rm as it permanently deletes files.
+        - If unsure, search for terms like "Safe file deletion in Linux" for advice.
+
+---
+
+1. File Permissions and chmod
+
+Understanding Permissions:
+
+- Use ls -l to see the permissions on files.
+- File permissions are shown as rwxrwxrwx, divided for the User, Group, and Others.
+    - Each letter means:
+        - r — Read (4)
+        - w — Write (2)
+        - x — Execute (1)
+
+Changing Permissions:
+
+- Symbolic way:
+    - chmod u+x filename — Gives the user execute permission.
+    - chmod g-w filename — Removes write permission from the group.
+
+Tippers:
+
+- Experiment with permissions on practice files to understand how they work.
+- Online resources, like "chmod in Linux explained," can provide more examples.
+
+---
+
+1. Using sudo for Administrative Tasks
+
+Basic Usage:
+
+- sudo [command] — Runs a command as an administrator (superuser).
+    - Example: sudo apt update — Updates the list of available software packages.
+    - Warning:
+        - Be careful when running sudo commands, as they can modify the system.
+        - If unsure, Google "how to safely use sudo in Linux" for further reading or ask for clarification.
+
+# **aAll git stuff that i should add:**
+
+git init – Starts a new Git repository.
+
+Configure Git:
+
+git config --global user.name "Your Name" – Sets your name globally.
+
+git config --global user.email "youremail@example.com" – Sets your email globally.
+
+Check Status:
+
+git status – Shows the status of the working directory.
+
+Stage Files:
+
+git add filename – Stages a specific file.
+
+git add . – Stages all changes.
+
+Commit Changes:
+
+git commit -m "message" – Commits staged changes with a message.
+
+View Log:
+
+git log – Shows the commit history.
+
+Create and Switch Branch:
+
+git checkout -b branch-name – Creates and switches to a new branch.
+
+Switch Branch:
+
+git checkout branch-name – Switches to an existing branch.
+
+Merge Branches:
+
+git merge branch-name – Merges the specified branch into the current one.
+
+Delete Branch:
+
+git branch -d branch-name – Deletes the specified branch.
+
+Undo Changes in Working Directory:
+
+- Using git restore (newer versions):git restore filename
+- Using git checkout (older versions):git checkout -- filename
+
+Remove Cached File:
+
+git rm --cached filename – Removes a file from staging but keeps it locally.
+
+Set Alias:
+
+git config --global alias.alias-name command – Sets up a shortcut for a Git command.
+
+Tag a Commit:
+
+git tag -a v1.0 -m "message" – Tags a commit with a version.
+
+Reset Commits:
+
+- Git reset - -soft HEAD~1
+- Git reset - -hard HEAD~1
+    - Be careful, using the - -hard deletes changes permanently from your local repository. use with caution!
+
+---
+
+---
